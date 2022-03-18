@@ -2,7 +2,7 @@
 using namespace std;
 int main ()
 {
-int N, d0, d1, d2, s=0;
+int N, d0, d1, d2, s;
 // необязательное пояснение, что требуется именно трехзначное число
 cout << "Please type the number at range from 100 to 1000 or range -1000 to -99 -- "; cin >> N;
 //переводим число в натуральное положительное если оно было отрицательным
