@@ -12,5 +12,5 @@ d0 = N / 100;
 d1 = N /10 % 10;
 d2 = N % 10;
 s = d0 + d1 +d2;
-cout << "summ = " << s;
+cout << "summ = " << s << endl;
 }
