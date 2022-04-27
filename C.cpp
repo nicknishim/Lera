@@ -1,7 +1,6 @@
 # include <iostream>
 using namespace std;
-int main ()
-{
+int main () {
 int a, b, c, M;
 cout << "a = "; cin >> a;
 cout << "b = "; cin >> b;
@@ -12,5 +11,4 @@ if ((a > b) && (a > c)) {M = a;}
   else if ((b > c) && (b > a)) {M = b;}
     else M = c;
 cout << M << endl;
-return 0;
-}
+return 0;}
