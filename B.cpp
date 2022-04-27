@@ -1,7 +1,6 @@
 # include <iostream>
 using namespace std;
-int main ()
-{
+int main () {
 int N, d0, d1, d2, s;
 // необязательное пояснение, что требуется именно трехзначное число
 cout << "Please type the number at range from 100 to 1000 or range -1000 to -99 -- "; cin >> N;
@@ -14,4 +13,4 @@ d1 = N /10 % 10;
 d2 = N % 10;
 s = d0 + d1 +d2;
 cout << "summ = " << s << endl;
-}
+return 0;}
